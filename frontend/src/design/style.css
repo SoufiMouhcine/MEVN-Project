@@ -1,0 +1,166 @@
+.dep {
+    text-align: justify;
+}
+
+.depButton {
+    text-align: end;
+}
+
+.divider {
+    width: 10px;
+    height: auto;
+    display: inline-block;
+}
+
+.zoom {
+    /* Animation */
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.03);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.verticalLine {
+    position: relative;
+    right: 780px;
+    transform: rotate(7deg);
+    -webkit-transform: rotate(90deg);
+    background-color: rgb(220, 220, 220)
+}
+
+div.card-content {
+    background-color: #fafafa
+}
+
+.name {
+    font-size: 28px;
+    color: #000;
+}
+
+.description {
+    font-size: 20px;
+    color: #999;
+}
+
+.card {
+    margin-bottom: 2em;
+}
+
+label.label {
+    font-weight: normal;
+}
+
+.card-header {
+    background-color: #555;
+    height: 3.1em;
+}
+
+p.card-header-title {
+    text-align: center;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+.card-footerbutton {
+    font-size: 16px;
+    color: #888;
+}
+
+.card-footerbuttoncheck {
+    font-size: 16px;
+    color: #888;
+}
+
+.card-footerbuttoncheck:hover {
+    color: rgb(37, 241, 37);
+}
+
+.right {
+    margin-left: 10px;
+}
+
+.card-footerbutton:hover {
+    color: red;
+}
+
+.card {
+    margin-bottom: 2em;
+}
+
+.modal-card-footbutton {
+    display: inline-block;
+    width: 80px;
+}
+
+button.link {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button.button {
+    border: 0;
+    color: #999;
+}
+
+button.button:hover {
+    color: grey;
+}
+
+.card-footer {
+    height: 3.3em;
+    background-color: #ffff;
+}
+
+.modal-card-foot button {
+    display: inline-block;
+    width: 80px;
+}
+
+.modal-card-head,
+.modal-card-body {
+    text-align: center;
+}
+
+.align {
+    text-align: start;
+}
+
+.title {
+    text-align: initial;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+    word-break: break-word;
+    border-left: 16px solid grey;
+    border-bottom: 2px solid grey;
+    padding-left: 8px;
+    padding-right: 16px;
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 0px;
+}
+
+.title:hover {
+    color: #555;
+}
+
+input.invalid,
+textarea.invalid,
+select.invalid {
+    border-left: 10px red solid !important;
+}
+
+label.input {
+    background-color: #e5e5e5;
+    border: 1px solid #ccc;
+}
+
+.field {
+    margin-bottom: 0.75rem;
+    text-align: left;
+}
